@@ -18,7 +18,9 @@ pixels_per_metric = object_width / know_width
 
 As the reference object's has a known_width of 100 nm. Now, suppose that our object_width (measured in pixels) is computed be 15000 pixels wide (based on its associated bounding box).
 
+```python
 The pixels_per_metric is therefore:
+```
 
 pixels_per_metric = 15000px / 100nm = 150px
 
