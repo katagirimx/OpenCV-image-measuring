@@ -36,15 +36,15 @@ The output shall resemble Figure n
 
 [TODO: add Figure n]
 
-As detalied abobe, we have successfully computed the size of each object in an our image — our business card is correctly reported as 3.5in x 2in. Similarly, our nickel is accurately described as 0.8in x 0.8in.
+As detalied abobe, we have successfully computed the size of each object in an our image — the fiber diameter is correctly reported as 230 nm.
 
 However, not all our results are perfect.
 
-The Game Boy cartridges are reported as having slightly different dimensions (even though they are the same size). The height of both quarters are also off by 0.1in.
+Some measurements are reported with slightly different dimensions (even though they are the same size). The reason is two-fold:
 
-So why is this? How come the object measurements are not 100% accurate? The reason is two-fold:
+* First, the angle from where the image is taken is most certainly not a perfect 90-degree angle “looking down” (birds-eye-view) from the objects. Without a perfect 90-degree view, the dimensions of the objects can appear distorted.
+* Second, it is likelly that the intrinsic and extrinsic parameters of the camera are not calibrated. Without determining these parameters, photos can be prone to radial and tangential lens distortion. Performing an extra calibration step to find these parameters can “un-distort” our image and lead to a better object size approximation.
 
-* First, I hastily took this photo with my iPhone. The angle is most certainly not a perfect 90-degree angle “looking down” (like a birds-eye-view) at the objects. Without a perfect 90-degree view (or as close to it as possible), the dimensions of the objects can appear distorted.
-* Second, I did not calibrate my iPhone using the intrinsic and extrinsic parameters of the camera. Without determining these parameters, photos can be prone to radial and tangential lens distortion. Performing an extra calibration step to find these parameters can “un-distort” our image and lead to a better object size approximation (but I’ll leave the discussion of distortion correction as a topic of a future blog post).
+To increase the accuracy of the object size estimation, strive to obtain as close to a 90-degree viewing angle as possible when taking photos of your objects
 
 In the meantime, strive to obtain as close to a 90-degree viewing angle as possible when taking photos of your objects — this will help increase the accuracy of your object size estimation.
