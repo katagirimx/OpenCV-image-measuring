@@ -16,13 +16,11 @@ As the refernce object is the right-most object, we can sort our object contours
 pixels_per_metric = object_width / know_width
 ```
 
-As the reference object's has a known_width of 100 nm. Now, suppose that our object_width (measured in pixels) is computed be 15000 pixels wide (based on its associated bounding box).
+As the reference object's has a known_width of 100 nm. Now, suppose that our object_width (measured in pixels) is computed be 15000 pixels wide (based on its associated bounding box). The pixels_per_metric is therefore:
 
 ```python
-The pixels_per_metric is therefore:
-```
-
 pixels_per_metric = 15000px / 100nm = 150px
+```
 
 Thus implying there are approximately 15000 pixels per every 100 nm in our image. Using this ratio, we can compute the size of objects in an image
 
